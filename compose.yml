@@ -213,9 +213,6 @@ services:
   playwright-chrome:
     <<: *playwright-base
 
-  playwright-edge:
-    <<: *playwright-base
-
   playwright-firefox:
     <<: *playwright-base
 
@@ -326,17 +323,6 @@ services:
       --playwright=chrome
     depends_on:
       playwright-chrome:
-        condition: service_started
-    environment:
-      - DATABASE_ENGINE=django.db.backends.sqlite3
-
-  edge:
-    <<: *base
-    entrypoint: >-
-      /django/entrypoint.bash
-      --playwright=edge
-    depends_on:
-      playwright-edge:
         condition: service_started
     environment:
       - DATABASE_ENGINE=django.db.backends.sqlite3

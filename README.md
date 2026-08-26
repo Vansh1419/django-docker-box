@@ -9,7 +9,7 @@ Tooling and test execution support for [Django][0] :unicorn:
 
 - :test\_tube: Test supported core database backends — MariaDB, MySQL, Oracle, PostgreSQL, SQLite
 - :earth\_africa: Test supported core geospatial backends — MariaDB, MySQL, Oracle, PostGIS, SpatiaLite
-- :globe\_with\_meridians: Test user interfaces in different browsers using Playwright — Chrome, Edge, Firefox
+- :globe\_with\_meridians: Test user interfaces in different browsers using Playwright — Chromium, Firefox, Webkit
 - :snake: Test using different Python interpreters — CPython, PyPy
 - :broom: Execute linting and formatting tools on the Django repository
 - :books: Build the project documentation using Sphinx and run spelling and link checkers
@@ -119,7 +119,7 @@ different supported web browser. The tests are executed using Playwright.
 To capture screenshots of certain test cases used for comparison to avoid
 regressions, the `--screenshots` flag can be passed.
 
-More information about [running the Playground tests][8] for Django can be found
+More information about [running the Playwrite tests][8] for Django can be found
 in the documentation.
 
 

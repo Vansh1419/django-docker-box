@@ -119,7 +119,7 @@ different supported web browser. The tests are executed using Playwright.
 To capture screenshots of certain test cases used for comparison to avoid
 regressions, the `--screenshots` flag can be passed.
 
-More information about [running the Playwrite tests][8] for Django can be found
+More information about [running the Playwright tests][8] for Django can be found
 in the documentation.
 
 

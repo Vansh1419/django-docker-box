@@ -324,7 +324,6 @@ services:
     entrypoint: >-
       /django/entrypoint.bash
       --playwright=chromium
-      --parallel=1
     depends_on:
       playwright-chrome:
         condition: service_started
@@ -336,7 +335,6 @@ services:
     entrypoint: >-
       /django/entrypoint.bash
       --playwright=firefox
-      --parallel=1
     depends_on:
       playwright-firefox:
         condition: service_started
@@ -348,7 +346,6 @@ services:
     entrypoint: >-
       /django/entrypoint.bash
       --playwright=webkit
-      --parallel=1
     depends_on:
       playwright-webkit:
         condition: service_started

@@ -308,4 +308,5 @@ with no promises that they'll be delivered:
 [5]: https://docs.djangoproject.com/en/stable/internals/contributing/writing-code/coding-style/
 [6]: https://docs.djangoproject.com/en/stable/internals/contributing/writing-documentation/
 [7]: https://docs.djangoproject.com/en/stable/internals/contributing/writing-code/unit-tests/#running-the-unit-tests
+[8]: https://docs.djangoproject.com/en/stable/internals/contributing/writing-code/unit-tests/#running-the-playwright-tests
 [9]: https://docs.djangoproject.com/en/stable/ref/contrib/gis/testing/#geodjango-tests

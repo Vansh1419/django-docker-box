@@ -60,8 +60,6 @@ SHELL ["/bin/bash", "-c"]
 ENV DJANGO_SETTINGS_MODULE=docker_settings
 ENV PYTHONPATH="${PYTHONPATH}:/django/source/:/django/config/"
 ENV PLAYWRIGHT_BROWSERS_PATH=/django/.cache/ms-playwright
-
-RUN playwright install --with-deps chromium firefox webkit
 RUN chown --recursive django:django /django/.cache
 
 USER django:django

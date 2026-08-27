@@ -109,7 +109,7 @@ To run tests on user interfaces you can use the following commands:
 
 ```console
 $ docker compose run --rm chrome
-$ docker compose run --rm edge
+$ docker compose run --rm webkit
 $ docker compose run --rm firefox
 ```
 
